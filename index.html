@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+	z-index: 0;
+}
+
+h1,h3
+{
+	color: white !important;
+	z-index: 99999;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Moving Rover On</title>
+</head>
+<body onload="add();">
+<center>
+<h1>Moving Rover On Mars</h1>
+<marque><b class="text-danger">NOTE:</b><br>IF ROVER IS NOT VISIBLE PRESS ANY ARROW KEY.</marque>
+<hr>
+<canvas id="myCanvas" height="600" width="800">
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
